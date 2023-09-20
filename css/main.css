@@ -1,0 +1,36 @@
+:root{
+    --Mobile__padding: 1.875rem; /*Mobile ansicht padding variabl*/
+    --logo__width: 10.25rem; /*Logo width*/
+    --navigation__height: 2.5rem; /* navigation class "container" section */
+}
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+.page__navigation{
+    background-color: #c6ced4;
+    padding-top: var(--Mobile__padding);
+    padding-bottom: var(--Mobile__padding);
+}
+.container{
+    padding-left: var(--Mobile__padding);
+    padding-right: var(--Mobile__padding);
+}
+.page__navigation__logo{
+    height: var(--navigation__height);
+}
+.page__navigation__buttons-list{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+.page__navigation__button{
+    border: 0.06rem solid #00355F;
+    border-radius: 1.1875rem;
+    text-decoration: none;
+    color: #00355F;
+    padding: 0.16rem 1rem;
+    font-size: 15px;
+    font-weight: 500;
+}
