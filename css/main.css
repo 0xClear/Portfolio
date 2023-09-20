@@ -20,12 +20,17 @@ html{
     height: var(--navigation__height);
 }
 .page__navigation__buttons-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
     list-style-type: none;
 }
 .page__navigation__button{
+    display: block;
     border: 0.06rem solid #00355F;
     border-radius: 1.1875rem;
     text-decoration: none;
@@ -33,4 +38,8 @@ html{
     padding: 0.16rem 1rem;
     font-size: 15px;
     font-weight: 500;
+}
+.page__navigation__button-socials{
+    display: block;
+    border: none;
 }
