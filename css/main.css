@@ -8,7 +8,7 @@ html{
 }
 
 .page__navigation{
-    background-color: #c6ced4;
+    background-color: #d6d7d8;
     padding-top: var(--Mobile__padding);
     padding-bottom: var(--Mobile__padding);
 }
@@ -44,4 +44,8 @@ html{
     display: block;
     text-align: center;
     height: 2rem;
+}
+.page__navigation-container{
+    display: flex;
+    justify-content: space-between;
 }
