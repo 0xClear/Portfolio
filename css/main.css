@@ -10,7 +10,7 @@ html{
 .page__navigation{
     background-color: #d6d7d8;
     padding-top: var(--Mobile__padding);
-    padding-bottom: var(--Mobile__padding);
+
 }
 .container{
     padding-left: var(--Mobile__padding);
@@ -58,6 +58,7 @@ html{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-bottom: var(--Mobile__padding);
 }
 .page__navigation__menu-list{
     list-style-type: none;
@@ -74,6 +75,13 @@ html{
     margin-left: 0.4rem;
     margin-right: 0.4rem;
     font-weight: 400;
+}
+.page__navigation::after{
+    display: block;
+    content: "";
+    height: 0.8rem;
+    background-color: #0a416e;
+    background-image: linear-gradient(to right, #261161, #00355f, #08b1cf, #185f18);
 }
 
 @media screen and (min-width: 860px) {
