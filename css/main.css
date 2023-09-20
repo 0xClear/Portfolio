@@ -23,13 +23,16 @@ html{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 0px;
     list-style: none;
+    flex: 1 0 auto;
 }
 .page__navigation__button{
     display: block;
-    border: 0.06rem solid #00355F;
+    border: 0.05rem solid #00355F;
     border-radius: 1.1875rem;
     text-decoration: none;
     color: #00355F;
@@ -40,6 +43,7 @@ html{
     font-weight: 500;
     height: 1.5rem;
 }
+
 .page__navigation__button-socials{
     display: block;
     text-align: center;
@@ -48,4 +52,5 @@ html{
 .page__navigation-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
