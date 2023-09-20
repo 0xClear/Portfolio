@@ -22,8 +22,8 @@ html{
 .page__navigation__buttons-list{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     text-align: center;
+    align-items: center;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
@@ -35,11 +35,17 @@ html{
     border-radius: 1.1875rem;
     text-decoration: none;
     color: #00355F;
-    padding: 0.16rem 1rem;
+    padding: 0.2rem 1rem;
     font-size: 15px;
+    line-height: 1.4rem;
+    text-align: center;
     font-weight: 500;
+    height: 1.5rem;
 }
 .page__navigation__button-socials{
-    display: block;
+    text-align: center;
+    display: inline-block;
     border: none;
+    border-radius: none;
+    padding: 0px;
 }
