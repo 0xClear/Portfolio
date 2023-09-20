@@ -80,8 +80,7 @@ html{
     display: block;
     content: "";
     height: 0.8rem;
-    background-color: #0a416e;
-    background-image: linear-gradient(to right, #261161, #00355f, #08b1cf, #185f18);
+    background: linear-gradient(to right, #261161, #00355f, #08b1cf, #185f18);
 }
 
 @media screen and (min-width: 860px) {
