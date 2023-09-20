@@ -22,12 +22,10 @@ html{
 .page__navigation__buttons-list{
     display: flex;
     justify-content: flex-end;
-    text-align: center;
     align-items: center;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 0px;
-    list-style-type: none;
+    list-style: none;
 }
 .page__navigation__button{
     display: block;
@@ -43,9 +41,7 @@ html{
     height: 1.5rem;
 }
 .page__navigation__button-socials{
+    display: block;
     text-align: center;
-    display: inline-block;
-    border: none;
-    border-radius: none;
-    padding: 0px;
+    height: 2rem;
 }

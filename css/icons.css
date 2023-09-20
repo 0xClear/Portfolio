@@ -10,3 +10,9 @@
 .icon__maps{
     background-image: url("../Assets/icon/icons-round-maps.svg");
 }
+.icon__phone{
+    background-image: url("../Assets/icon/icons-round-phone.svg");
+}
+.icon__contact{
+    background-image: url("../Assets/icon/icons-round-contact.svg");
+}
