@@ -18,6 +18,7 @@ html{
 }
 .page__navigation__logo{
     height: var(--navigation__height);
+    width: var(--logo__width);
 }
 .page__navigation__buttons-list{
     display: flex;
