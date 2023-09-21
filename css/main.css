@@ -141,6 +141,7 @@ html{
     text-align: left;
     color: var(--sub-text-color);
     font-weight: 300;
+    margin-bottom: 2rem;
 }
 .header__info{
     color: var(--sub-text-color);
@@ -163,15 +164,15 @@ html{
     text-decoration: none;
     text-align: center;
     color: var(--text-color);
-    background-color: #11293dec;
+    background: linear-gradient(to right, #133c5cec, #7a2c07);
     border-radius: 5rem;
     box-shadow: 0 0 0.2rem #245a86;
 }
 .hero__button:hover{
-    background-color: #0b1d2bec;
+    background: linear-gradient(to right, #2f6894ec, #441804);
     color: #d0d5da;
     box-shadow: 0 0 0.3rem #08b1cf;
-    transition: box-shadow 0.5s ease-in-out, background 0.5s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out, background 0.5s ease-in-out, linear 0.5s ease-in-out;
 }
 
 
@@ -203,6 +204,23 @@ html{
     }
     .header__profile-img{
         max-width: 100%;
+    }
+    .header__me-name{
+        margin-top: 0px;
+        text-align: left;
+        font-size: 3rem;
+    }
+    .header__me-doing{
+        padding-top: 0px;
+        text-align: left;
+        font-size: 2rem;
+    }
+    .header__info-txt{
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+    .header__info{
+        display: none;
     }
 }
 
