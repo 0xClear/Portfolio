@@ -2,6 +2,7 @@
     --Mobile__padding: 1.875rem; /*Mobile ansicht padding variabl*/
     --logo__width: 10.25rem; /*Logo width*/
     --navigation__height: 2.5rem; /* navigation class "container" section */
+    --container-max-wdith: 1100px; /*max width container */
 }
 html{
     font-family: 'Lato', sans-serif;
@@ -15,6 +16,8 @@ html{
 .container{
     padding-left: var(--Mobile__padding);
     padding-right: var(--Mobile__padding);
+    max-width: var(--container-max-wdith);
+    margin: 0px auto;
 }
 .page__navigation__logo{
     height: var(--navigation__height);
@@ -45,7 +48,11 @@ html{
     font-weight: 500;
     height: 1.5rem;
 }
-
+.page__navigation__button:hover{
+    color: #0e4877;
+    background-color: rgba(172, 181, 189, 0.466);
+    border-color: #08b1cf;
+}
 .page__navigation__button-socials{
     display: block;
     text-align: center;
