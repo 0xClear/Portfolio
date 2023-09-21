@@ -3,6 +3,7 @@
     --logo__width: 10.25rem; /*Logo width*/
     --navigation__height: 2.5rem; /* navigation class "container" section */
     --container-max-wdith: 1100px; /*max width container */
+    --text-color: #fff;
 }
 html{
     font-family: 'Lato', sans-serif;
@@ -89,8 +90,8 @@ html{
 .page__navigation::after{
     display: block;
     content: "";
-    height: 0.8rem;
-    background: linear-gradient(to right, #261161, #00355f, #08b1cf, #185f18);
+    height: 0.5rem;
+    background: linear-gradient(to right, #511edd, #0c60a5, #7f1e9c, #185f18);
 }
 
 .header{
@@ -100,6 +101,26 @@ html{
     background-size: cover;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+.header__profile-img{
+    display: block;
+    background: linear-gradient(to left, #833a28, #08b1cf);
+    background-position: 50% 50%;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.header__me{
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 0.1rem;
+
+}
+.header__info{
+    color: #97a0aa;
+    text-align: center;
+    margin: 0px;
 }
 
 
