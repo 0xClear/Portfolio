@@ -113,30 +113,33 @@ html{
     display: block;
     background: linear-gradient(to left, #833a28, #08b1cf38);
     background-position: 50% 50%;
-    height: 8rem;
-    width: 8rem;
-    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 3rem 3rem 3rem 3rem;
     margin: 0px auto;
 }
 .header__me-name{
     color: var(--text-color);
     text-align: center;
-    margin-bottom: 0.1rem;
-    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
     font-weight: 600;
 }
 .header__me-doing{
     color: var(--text-color);
-    margin-top: 0px;
-    line-height: 1.8rem;
+    margin-top: 0rem;
+    padding-top: 1rem;
     margin-bottom: 0px;
-    font-size: 1.47rem;
+    font-size: 1.5rem;
+    font-weight: 400;
     text-shadow: 0 0 0.5rem #051113;
 }
 .header__info-txt{
     margin: 0px;
     text-align: left;
-    color: var(--sub-text-color)
+    color: var(--sub-text-color);
+    font-weight: 300;
 }
 .header__info{
     color: var(--sub-text-color);
@@ -199,10 +202,5 @@ html{
     .header__profile-img{
         max-width: 100%;
     }
-    .header__me{
-        text-align: left;
-        font-size: 2rem;
-    }
-
 }
 
