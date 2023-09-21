@@ -121,7 +121,7 @@ html{
 }
 .header__info{
     justify-content: center;
-    color: #97a0aa;
+    color: #b4b7bb;
     text-align: center;
     margin-top: 0px;
     margin-bottom: .95rem;
@@ -141,6 +141,13 @@ html{
     color: var(--text-color);
     background-color: #11293dec;
     border-radius: 5rem;
+    box-shadow: 0 0 0.2rem #245a86;
+}
+.button:hover{
+    background-color: #0b1d2bec;
+    color: #d0d5da;
+    box-shadow: 0 0 0.3rem #08b1cf;
+    transition: box-shadow 0.5s ease-in-out, background 0.5s ease-in-out;
 }
 
 
