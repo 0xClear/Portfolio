@@ -18,7 +18,9 @@ html{
 }
 .page__navigation__logo{
     height: var(--navigation__height);
-    width: var(--logo__width);
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 7rem;
 }
 .page__navigation__buttons-list{
     display: flex;
@@ -36,7 +38,7 @@ html{
     border-radius: 1.1875rem;
     text-decoration: none;
     color: #00355F;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0.8rem;
     font-size: 15px;
     line-height: 1.4rem;
     text-align: center;
