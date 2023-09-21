@@ -93,6 +93,16 @@ html{
     background: linear-gradient(to right, #261161, #00355f, #08b1cf, #185f18);
 }
 
+.header{
+    background-image: url(../Assets/img/unslesh.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
 @media screen and (min-width: 860px) {
     .page__navigation__menu-list{
         display: flex;
@@ -102,3 +112,4 @@ html{
         color: #0a416e;
     }
 }
+
