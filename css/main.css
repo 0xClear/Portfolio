@@ -104,7 +104,7 @@ html{
 }
 .header__profile-img{
     display: block;
-    background: linear-gradient(to left, #833a28, #08b1cf);
+    background: linear-gradient(to left, #833a28, #08b1cf38);
     background-position: 50% 50%;
     height: 8rem;
     width: 8rem;
@@ -112,7 +112,6 @@ html{
     margin: 0px auto;
 }
 .header__me{
-    justify-content: center;
     color: var(--text-color);
     text-align: center;
     margin-bottom: 0.1rem;
@@ -120,17 +119,19 @@ html{
 
 }
 .header__info{
-    justify-content: center;
-    color: #b4b7bb;
+    display: flex;
+    color: #bdbfc2;
     text-align: center;
     margin-top: 0px;
     margin-bottom: .95rem;
+    text-shadow: 0 0 0.2rem #051113;
 }
 .header__profile-img-container{
     display: flex;
     flex-direction: column;
 }
-.header__button-container{
+.header__info-container{
+    display: block;
     text-align: center;
 }
 .button{
@@ -142,8 +143,9 @@ html{
     background-color: #11293dec;
     border-radius: 5rem;
     box-shadow: 0 0 0.2rem #245a86;
+    flex: 0 1 200px;
 }
-.button:hover{
+.hero__button:hover{
     background-color: #0b1d2bec;
     color: #d0d5da;
     box-shadow: 0 0 0.3rem #08b1cf;
@@ -158,6 +160,28 @@ html{
     .page__navigation__menu-item:hover{
         font-size: 1rem;
         color: #0a416e;
+    }
+    .header__profile-img-container{
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .header__profile-img{
+        display: inline-block;
+        margin: 0px;
+        background: linear-gradient(to left, #833a28, #08b1cf38);
+        background-position: 50% 50%;
+        height: 15rem;
+        width: 15rem;
+        border-radius: 3rem 0rem 3rem 3rem;
+    }
+    .header__info-container{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0px;
+    }
+    .header__me{
+        margin-top: 0.2rem;
+        justify-content: flex-start;
     }
 }
 
