@@ -1,5 +1,5 @@
 :root{
-    --Mobile__padding: 1.875rem; /*Mobile ansicht padding variabl*/
+    --Mobile__padding: 1rem; /*Mobile ansicht padding variabl*/
     --logo__width: 10.25rem; /*Logo width*/
     --navigation__height: 2.5rem; /* navigation class "container" section */
     --container-max-wdith: 1100px; /*max width container */
