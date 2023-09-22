@@ -4,7 +4,7 @@
     --navigation__height: 2.5rem; /* navigation class "container" section */
     --container-max-wdith: 1100px; /*max width container */
     --text-color: #b0c0cd;
-    --sub-text-color: #ccf1f1;
+    --text-hover-color: #e6ebef;
     --primary-background-color: #001d34;
     --primary-hover-button: #b0c0cd;
 }
@@ -55,7 +55,7 @@ html{
 .page__navigation__button:hover{
     color: var(--primary-hover-button);
     background-color: var(--primary-background-color);
-    border-color: #08b1cf;
+    border-color: var(--primary-hover-button);
 }
 .page__navigation__button-socials{
     display: block;
@@ -83,7 +83,7 @@ html{
 }
 .page__navigation__menu-item{
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--text-hover-color);
     align-items: center;
     font-size: 1rem;
     margin-left: 0.4rem;
@@ -185,7 +185,7 @@ html{
     }
     .page__navigation__menu-item:hover{
         font-size: 1rem;
-        color: #0a416e;
+        color: var(--primary-hover-button);
     }
     .header__profile-img{
         display: inline-block;
