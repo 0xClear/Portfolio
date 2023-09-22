@@ -3,15 +3,17 @@
     --logo__width: 10.25rem; /*Logo width*/
     --navigation__height: 2.5rem; /* navigation class "container" section */
     --container-max-wdith: 1100px; /*max width container */
-    --text-color: #fff;
+    --text-color: #b0c0cd;
     --sub-text-color: #ccf1f1;
+    --primary-background-color: #001d34;
+    --primary-hover-button: #b0c0cd;
 }
 html{
     font-family: 'Lato', sans-serif;
 }
 
 .page__navigation{
-    background-color: #d6d7d8;
+    background-color: var(--primary-background-color);
     padding-top: var(--Mobile__padding);
 
 }
@@ -42,7 +44,7 @@ html{
     border: 0.05rem solid #00355F;
     border-radius: 1.1875rem;
     text-decoration: none;
-    color: #00355F;
+    color: var(--text-color);
     padding: 0.2rem 0.8rem;
     font-size: 15px;
     line-height: 1.4rem;
@@ -51,8 +53,8 @@ html{
     height: 1.5rem;
 }
 .page__navigation__button:hover{
-    color: #0e4877;
-    background-color: rgba(172, 181, 189, 0.466);
+    color: var(--primary-hover-button);
+    background-color: var(--primary-background-color);
     border-color: #08b1cf;
 }
 .page__navigation__button-socials{
@@ -81,7 +83,7 @@ html{
 }
 .page__navigation__menu-item{
     text-decoration: none;
-    color: #00355F;
+    color: var(--text-color);
     align-items: center;
     font-size: 1rem;
     margin-left: 0.4rem;
@@ -145,12 +147,12 @@ html{
     margin-bottom: 2rem;
 }
 .header__info{
-    color: var(--sub-text-color);
+    color: var(--text-color);
     text-align: center;
     font-size: 1rem;
     margin-top: 0px;
     margin-bottom: .95rem;
-    text-shadow: 0 0 0.2rem #051113;
+    text-shadow: 0 0 0.02rem #0e4049;
 }
 .header__profile-img-container{
     flex-direction: column;
@@ -171,7 +173,7 @@ html{
 }
 .hero__button:hover{
     background: linear-gradient(to right, #2f6894ec, #441804);
-    color: #d0d5da;
+    color: var(--text-color);
     box-shadow: 0 0 0.3rem #08b1cf;
     transition: box-shadow 0.5s ease-in-out, background 0.5s ease-in-out, linear 0.5s ease-in-out;
 }
