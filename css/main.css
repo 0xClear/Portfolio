@@ -121,13 +121,18 @@ html{
     margin: 0px auto;
 }
 .header__me-name{
-    color: var(--text-color);
+ /*   color: var(--text-color);
+ */
     text-align: center;
     margin-bottom: 0rem;
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 600;
-    text-shadow: 0 0 0.3rem #000202;
+    text-shadow: 0 0 0.99rem #646977;
+    color: transparent;
+    background: linear-gradient(to right, var(--text-color), #833a28);
+    -webkit-background-clip: text;
+    display: inline-block;
 }
 .header__me-doing{
     color: var(--text-color);
@@ -142,7 +147,7 @@ html{
 .header__info-txt{
     margin: 0px;
     text-align: left;
-    color: var(--sub-text-color);
+    color: var(--text-color);
     font-weight: 300;
     margin-bottom: 2rem;
 }
