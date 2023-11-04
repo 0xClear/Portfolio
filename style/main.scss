@@ -1,0 +1,36 @@
+@import "../lib/bootstrap-5.3.2/scss/bootstrap";
+
+.page-header{
+    background-image: url("../Assets/img/hero-img.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-toggler {
+    border: 1px solid #466574;
+}
+
+.navbar-toggler:hover {
+    border: none;
+}
+
+.navbar-brand {
+    color: #7f65d2;
+    text-transform: capitalize;
+}
+
+.nav-item .nav-link {
+    color: #acadb2;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.nav-item .nav-link:hover {
+    color: #bcbfce;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #d3a87d;
+}
