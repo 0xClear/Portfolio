@@ -1,20 +1,25 @@
+$primary: #d3a87d;
+
 @import "../lib/bootstrap-5.3.2/scss/bootstrap";
+
 
 .page-header{
     background-image: url("../Assets/img/hero-img.jpg");
     height: 600px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover ;
+    background-position: center center;
 }
 
-.navbar-toggler {
+.navbar-toggler{
     border: 1px solid #466574;
 }
-
+.navbar-toggler-icon{
+    color: #7f65d2;
+}
 .navbar-toggler:hover {
     border: none;
 }
-
 .navbar-brand {
     color: #7f65d2;
     text-transform: capitalize;
@@ -32,5 +37,10 @@
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-    color: #d3a87d;
+    color: $primary;
+}
+
+.header-jumbotron{
+    background-color: transparent;
+    color: $primary;
 }
