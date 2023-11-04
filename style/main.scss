@@ -5,7 +5,6 @@ $primary: #0c4261;
 
 .page-header{
     background-image: url("../Assets/img/hero-img-overled.jpg");
-    height: 600px;
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center center;
@@ -42,13 +41,32 @@ $primary: #0c4261;
 }
 
 .header-jumbotron{
+    padding-top: 30px;
+    height: 400px;
+    padding-bottom: 100px;
+    margin: 0;
     color: $primary;
 
     h2{
         font-weight: 400;
     }
     .btn-outline-primary{
-        color: wheat;
+        color: $white;
         font-weight: 200;
+    }
+
+    @include media-breakpoint-up(xs) {
+        h2{
+            font-weight: 100;
+            font-size: 1.7rem;
+            text-shadow: 0px 0px  0px 13px #000000;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+    }
+
+    @include media-breakpoint-up(lg) {
+
     }
 }

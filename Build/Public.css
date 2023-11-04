@@ -11857,7 +11857,6 @@ textarea.form-control-lg {
 }
 .page-header {
   background-image: url("../Assets/img/hero-img-overled.jpg");
-  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -11896,14 +11895,23 @@ textarea.form-control-lg {
 }
 
 .header-jumbotron {
+  padding-top: 30px;
+  height: 400px;
+  padding-bottom: 100px;
+  margin: 0;
   color: #0c4261;
 }
 .header-jumbotron h2, .header-jumbotron .h2 {
   font-weight: 400;
 }
 .header-jumbotron .btn-outline-primary {
-  color: wheat;
+  color: #fff;
   font-weight: 200;
+}
+.header-jumbotron h2, .header-jumbotron .h2 {
+  font-weight: 100;
+  font-size: 1.7rem;
+  text-shadow: 0px 0px 0px 13px #000000;
 }
 
 /*# sourceMappingURL=Public.css.map */
