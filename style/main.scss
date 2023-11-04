@@ -1,26 +1,16 @@
-$primary: #d3a87d;
+$primary: #0c4261;
 
 @import "../lib/bootstrap-5.3.2/scss/bootstrap";
 
 
 .page-header{
-    position: relative;
-    background-image: url("../Assets/img/hero-img.jpg");
+    background-image: url("../Assets/img/hero-img-overled.jpg");
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center center;
 }
 
-.page-header .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(6, 25, 53, 0.5);
-    z-index: 1;
-}
 
 .navbar-toggler{
     border: 1px solid #466574;
@@ -56,5 +46,9 @@ $primary: #d3a87d;
 
     h2{
         font-weight: 400;
+    }
+    .btn-outline-primary{
+        color: wheat;
+        font-weight: 200;
     }
 }
