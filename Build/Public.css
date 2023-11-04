@@ -11856,11 +11856,22 @@ textarea.form-control-lg {
   }
 }
 .page-header {
+  position: relative;
   background-image: url("../Assets/img/hero-img.jpg");
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.page-header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(6, 25, 53, 0.5);
+  z-index: 1;
 }
 
 .navbar-toggler {
@@ -11896,8 +11907,10 @@ textarea.form-control-lg {
 }
 
 .header-jumbotron {
-  background-color: transparent;
   color: #d3a87d;
+}
+.header-jumbotron h2, .header-jumbotron .h2 {
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=Public.css.map */
