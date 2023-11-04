@@ -11896,7 +11896,7 @@ textarea.form-control-lg {
 
 .header-jumbotron {
   padding-top: 30px;
-  height: 400px;
+  height: 600px;
   padding-bottom: 100px;
   margin: 0;
   color: #0c4261;
@@ -11912,6 +11912,10 @@ textarea.form-control-lg {
   font-weight: 100;
   font-size: 1.7rem;
   text-shadow: 0px 0px 0px 13px #000000;
+}
+.header-jumbotron p {
+  font-weight: 100;
+  font-size: 2.5rem;
 }
 
 /*# sourceMappingURL=Public.css.map */
