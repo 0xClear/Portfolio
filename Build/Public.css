@@ -11937,7 +11937,7 @@ textarea.form-control-lg {
 }
 .services .col-sm {
   border-radius: 1rem;
-  box-shadow: 2px 2px 2px 0px #00080a;
+  box-shadow: 0px 0px 0px 1px #021927;
   padding: 1.5rem;
   color: #bcbfce;
 }
