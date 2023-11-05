@@ -1,5 +1,9 @@
 $primary: #0c4261;
 $section-padding: 120px;
+$section-padding-responsive: 60px;
+$paddin-bottom: 1.5rem;
+$title-color: #62909f;
+$subtitle-color: #b0c0cd;
 
 @import "../lib/bootstrap-5.3.2/scss/bootstrap";
 
@@ -83,27 +87,35 @@ $section-padding: 120px;
 .services{
     padding-top: $section-padding;
     padding-bottom: $section-padding;
-    background-color: #071d2c;
+    background-color: #001d34;
+    color: $title-color;
 
     .col-sm {
             border-radius: 1rem;
-            box-shadow: 0px 0px 5px 1px #031727;
+            box-shadow: 2px 2px 2px 0px #00080a;
             padding: 1.5rem;
-            background: linear-gradient(80deg, #070b2c, $primary);
             color: #bcbfce;
     }
     .service_icon{
         width: 100px;
         text-align: center;
         margin: 0px auto;
-        padding-bottom: 1.4rem;
+        padding-bottom: $paddin-bottom;
 
         img{
             width: 100%;
         }
     }
-}
+    .subtitle {
+        color: $subtitle-color;
+        padding-bottom: $paddin-bottom;
 
-.services .container .col-sm p{
-    padding-top: 2rem;
+    }
+    .container .col-sm p {
+        padding-top: 2rem;
+    }
+
+    @include media-breakpoint-up(xs) {
+        padding-top: $section-padding-responsive;
+    }
 }

@@ -11925,25 +11925,29 @@ textarea.form-control-lg {
 .services {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: #071d2c;
+  background-color: #001d34;
+  color: #62909f;
+  padding-top: 60px;
 }
 .services .col-sm {
   border-radius: 1rem;
-  box-shadow: 0px 0px 5px 1px #031727;
+  box-shadow: 2px 2px 2px 0px #00080a;
   padding: 1.5rem;
-  background: linear-gradient(80deg, #070b2c, #0c4261);
   color: #bcbfce;
 }
 .services .service_icon {
   width: 100px;
   text-align: center;
   margin: 0px auto;
-  padding-bottom: 1.4rem;
+  padding-bottom: 1.5rem;
 }
 .services .service_icon img {
   width: 100%;
 }
-
+.services .subtitle {
+  color: #b0c0cd;
+  padding-bottom: 1.5rem;
+}
 .services .container .col-sm p {
   padding-top: 2rem;
 }
