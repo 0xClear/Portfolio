@@ -8,6 +8,11 @@ $primary: #0c4261;
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center center;
+    @include media-breakpoint-up(sm){
+        .page-header{
+            background-image: none;
+        }
+    }
 }
 
 

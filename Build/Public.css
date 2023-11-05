@@ -11861,6 +11861,11 @@ textarea.form-control-lg {
   background-size: cover;
   background-position: center center;
 }
+@media (min-width: 576px) {
+  .page-header .page-header {
+    background-image: none;
+  }
+}
 
 .navbar-toggler {
   border: 1px solid #466574;
