@@ -11899,6 +11899,15 @@ textarea.form-control-lg {
   color: #0c4261;
 }
 
+.heading-title {
+  color: #62909f;
+}
+
+.subtitle {
+  color: #b0c0cd;
+  padding-bottom: 1.5rem;
+}
+
 .header-jumbotron {
   padding-top: 30px;
   height: 600px;
@@ -11931,9 +11940,10 @@ textarea.form-control-lg {
 .services {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: #001d34;
+  background: linear-gradient(60deg, #001d34, #107772);
   color: #62909f;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .services .col-sm {
   border-radius: 1rem;
@@ -11949,10 +11959,6 @@ textarea.form-control-lg {
 }
 .services .service_icon img {
   width: 100%;
-}
-.services .subtitle {
-  color: #b0c0cd;
-  padding-bottom: 1.5rem;
 }
 .services .container .col-sm p {
   padding-top: 2rem;
