@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darlehensrechner</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <h1>Darlehensrechner</h1>
+    <div class="calculator">
+        <label for="loanAmount">Darlehensbetrag (in Euro):</label>
+        <input type="number" id="loanAmount" placeholder="Geben Sie den Darlehensbetrag ein">
+
+        <label for="annualInterestRate">Jahreszinssatz (%):</label>
+        <input type="number" id="annualInterestRate" placeholder="Geben Sie den Zinssatz ein">
+
+        <label for="loanTermInYears">Laufzeit (in Jahren):</label>
+        <input type="number" id="loanTermInYears" placeholder="Geben Sie die Laufzeit ein">
+
+        <button id="calculateButton">Berechnen</button>
+
+        <div id="result">Die monatliche Rate beträgt: <span id="monthlyPayment"></span> Euro</div>
+    </div>
+
+    <script src="../../js/rate_rechner.js"></script>
+</body>
+
+</html>
