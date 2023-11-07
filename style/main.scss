@@ -119,5 +119,8 @@ $subtitle-color: #b0c0cd;
 
     @include media-breakpoint-up(xs) {
         padding-top: $section-padding-responsive;
+        .row{
+            padding: 0 1rem;
+        }
     }
 }
