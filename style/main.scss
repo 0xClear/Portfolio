@@ -127,3 +127,15 @@ $subtitle-color: #b0c0cd;
         }
     }
 }
+
+.aboutme{
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+    background: linear-gradient(160deg, #0c4261, #222527);
+
+    .aboutme_image{
+        border-radius: 25%;
+        border: 2px solid #0d375e;
+    }
+
+}

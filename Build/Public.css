@@ -11967,4 +11967,14 @@ textarea.form-control-lg {
   padding: 0 1rem;
 }
 
+.aboutme {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: linear-gradient(160deg, #0c4261, #222527);
+}
+.aboutme .aboutme_image {
+  border-radius: 25%;
+  border: 2px solid #0d375e;
+}
+
 /*# sourceMappingURL=Public.css.map */
