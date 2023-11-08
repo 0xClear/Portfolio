@@ -131,11 +131,19 @@ $subtitle-color: #b0c0cd;
 .aboutme{
     padding-top: $section-padding;
     padding-bottom: $section-padding;
-    background: linear-gradient(160deg, #0c4261, #222527);
+    background: linear-gradient(90deg, rgb(44, 45, 46), #000000);
 
     .aboutme_image{
-        border-radius: 25%;
-        border: 2px solid #0d375e;
+        border-radius: 2rem;
+        box-shadow: 0 0 1px 0 $title-color;
     }
+
+    @include media-breakpoint-up(md){
+        padding-top: $section-padding-responsive;
+    }
+    @include media-breakpoint-up(mx) {
+        padding-top: $section-padding-responsive;
+    }
+
 
 }
