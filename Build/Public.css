@@ -11968,10 +11968,17 @@ textarea.form-control-lg {
 }
 
 .aboutme {
+  width: 100vw;
   padding-top: 120px;
   padding-bottom: 120px;
   background: linear-gradient(90deg, rgb(44, 45, 46), #000000);
   padding-top: 60px;
+}
+.aboutme .aboutme-content {
+  color: #b0c0cd;
+  font-size: calc(1.2rem + 0.3vw);
+  font-weight: 300;
+  line-height: 1.2;
 }
 .aboutme .aboutme_image {
   border-radius: 2rem;

@@ -5,8 +5,9 @@ $paddin-bottom: 1.5rem;
 $title-color: #62909f;
 $subtitle-color: #b0c0cd;
 
-@import "../lib/bootstrap-5.3.2/scss/bootstrap";
+$content-font-size: 1.2rem;
 
+@import "../lib/bootstrap-5.3.2/scss/bootstrap";
 
 .page-header{
     background-image: url("../Assets/img/hero-img.jpg");
@@ -128,22 +129,30 @@ $subtitle-color: #b0c0cd;
     }
 }
 
-.aboutme{
+.aboutme {
+    width: 100vw;
     padding-top: $section-padding;
     padding-bottom: $section-padding;
     background: linear-gradient(90deg, rgb(44, 45, 46), #000000);
 
-    .aboutme_image{
+    .aboutme-content{
+        color: $subtitle-color;
+
+        font-size: calc($content-font-size + 0.3vw);
+        font-weight: 300;
+        line-height: 1.2;
+    }
+    .aboutme_image {
         border-radius: 2rem;
         box-shadow: 0 0 1px 0 $title-color;
     }
 
-    @include media-breakpoint-up(md){
-        padding-top: $section-padding-responsive;
-    }
-    @include media-breakpoint-up(mx) {
+    @include media-breakpoint-up(md) {
         padding-top: $section-padding-responsive;
     }
 
+    @include media-breakpoint-up(mx) {
+        padding-top: $section-padding-responsive;
+    }
 
 }
