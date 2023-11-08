@@ -11984,6 +11984,13 @@ textarea.form-control-lg {
   border-radius: 2rem;
   box-shadow: 0 0 1px 0 #62909f;
 }
+.aboutme .container .heading-title {
+  margin: 0;
+}
+.aboutme .center-ele {
+  margin: 0 auto;
+  padding: 1rem 0;
+}
 @media (min-width: 768px) {
   .aboutme {
     padding-top: 60px;

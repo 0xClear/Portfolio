@@ -146,6 +146,13 @@ $content-font-size: 1.2rem;
         border-radius: 2rem;
         box-shadow: 0 0 1px 0 $title-color;
     }
+    .container .heading-title{
+        margin: 0;
+    }
+    .center-ele{
+        margin: 0 auto;
+        padding: 1rem 0;
+    }
 
     @include media-breakpoint-up(md) {
         padding-top: $section-padding-responsive;
