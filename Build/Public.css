@@ -11885,7 +11885,7 @@ textarea.form-control-lg {
 }
 
 .nav-item .nav-link {
-  color: #acadb2;
+  color: #b0c0cd;
   font-size: 1.2rem;
   font-weight: 300;
 }
@@ -11940,14 +11940,14 @@ textarea.form-control-lg {
 .services {
   padding-top: 120px;
   padding-bottom: 120px;
-  background: linear-gradient(60deg, #001d34, #107772);
+  background: linear-gradient(20deg, #000000, #424646);
   color: #62909f;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .services .col-sm {
   border-radius: 1rem;
-  box-shadow: 0px 0px 5px 1px #0c4261;
+  box-shadow: 0px 0px 1px 0px #62909f;
   padding: 1.5rem;
   color: #bcbfce;
 }

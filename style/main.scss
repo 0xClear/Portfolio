@@ -35,8 +35,8 @@ $subtitle-color: #b0c0cd;
     text-transform: capitalize;
 }
 
-.nav-item .nav-link {
-    color: #acadb2;
+.nav-item .nav-link{
+    color: $subtitle-color;
     font-size: 1.2rem;
     font-weight: 300;
 }
@@ -96,12 +96,12 @@ $subtitle-color: #b0c0cd;
 .services{
     padding-top: $section-padding;
     padding-bottom: $section-padding;
-    background: linear-gradient(60deg, #001d34, #107772);
+    background: linear-gradient(20deg, #000000, #424646);
     color: $title-color;
 
     .col-sm {
             border-radius: 1rem;
-            box-shadow: 0px 0px 5px 1px $primary;
+            box-shadow: 0px 0px 1px 0px $title-color;
             padding: 1.5rem;
             color: #bcbfce;
     }
