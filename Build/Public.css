@@ -11986,8 +11986,14 @@ textarea.form-control-lg {
 .aboutme .aboutme-content {
   color: #b0c0cd;
   font-size: calc(1.2rem + 0.3vw);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-weight: 300;
   line-height: 1.2;
+}
+.aboutme .title {
+  align-items: flex-start;
 }
 .aboutme .aboutme_image {
   border-radius: 2rem;
