@@ -106,6 +106,7 @@ $content-font-size: 1.2rem;
     padding-top: $section-padding;
     padding-bottom: $section-padding;
     background: linear-gradient(20deg, #000000, #424646);
+    z-index: 999;
     color: $title-color;
 
     .col-sm {
@@ -137,6 +138,20 @@ $content-font-size: 1.2rem;
     }
 }
 
+/*
+.aboutme-liste{
+    background: linear-gradient(to right,
+    $white 0%, transparent, 
+    $white calc(50% - 1px),
+    transparent, 
+    red calc(50% - 1px),  
+    red calc(50% + 1px),
+    transparent, 
+    $white calc(50% + 1px), 
+    $white 100% 
+    );
+}
+*/
 .aboutme {
     width: 100vw;
     padding-top: $section-padding;
@@ -155,9 +170,11 @@ $content-font-size: 1.2rem;
 
     }
     .aboutme_image {
-        border-radius: 3rem;
+        border-radius: 50%;
+        border: 1px solid $primary;
+        width: 100%;
         box-shadow: 0 0 1px 0 $title-color;
-
+        background: linear-gradient(to right, #031d35, #000000);
     }
     .container .heading-title{
         margin: 0;

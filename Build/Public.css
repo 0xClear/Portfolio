@@ -11950,6 +11950,7 @@ textarea.form-control-lg {
   padding-top: 120px;
   padding-bottom: 120px;
   background: linear-gradient(20deg, #000000, #424646);
+  z-index: 999;
   color: #62909f;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -11976,6 +11977,20 @@ textarea.form-control-lg {
   padding: 0 1rem;
 }
 
+/*
+.aboutme-liste{
+    background: linear-gradient(to right,
+    $white 0%, transparent, 
+    $white calc(50% - 1px),
+    transparent, 
+    red calc(50% - 1px),  
+    red calc(50% + 1px),
+    transparent, 
+    $white calc(50% + 1px), 
+    $white 100% 
+    );
+}
+*/
 .aboutme {
   width: 100vw;
   padding-top: 120px;
@@ -11995,8 +12010,11 @@ textarea.form-control-lg {
   margin-bottom: 0;
 }
 .aboutme .aboutme_image {
-  border-radius: 3rem;
+  border-radius: 50%;
+  border: 1px solid #0c4261;
+  width: 100%;
   box-shadow: 0 0 1px 0 #62909f;
+  background: linear-gradient(to right, #031d35, #000000);
 }
 .aboutme .container .heading-title {
   margin: 0;
