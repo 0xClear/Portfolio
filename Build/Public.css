@@ -11983,17 +11983,16 @@ textarea.form-control-lg {
   background: linear-gradient(90deg, rgb(44, 45, 46), #000000);
   padding-top: 60px;
 }
-.aboutme .aboutme-content {
+.aboutme .aboutme-content-text {
   color: #b0c0cd;
-  font-size: calc(1.2rem + 0.3vw);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  font-weight: 300;
-  line-height: 1.2;
+  font-size: 1.2rem;
+  font-weight: 100;
 }
-.aboutme .title {
-  align-items: flex-start;
+.aboutme .subtitle {
+  color: #445a64;
+}
+.aboutme .aboutme_content-text {
+  margin-bottom: 0;
 }
 .aboutme .aboutme_image {
   border-radius: 2rem;
@@ -12001,10 +12000,6 @@ textarea.form-control-lg {
 }
 .aboutme .container .heading-title {
   margin: 0;
-}
-.aboutme .center-ele {
-  margin: 0 auto;
-  padding: 1rem 0;
 }
 @media (min-width: 768px) {
   .aboutme {
