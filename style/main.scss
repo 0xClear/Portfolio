@@ -171,10 +171,9 @@ $content-font-size: 1.2rem;
     }
     .aboutme_image {
         border-radius: 50%;
-        border: 1px solid $primary;
         width: 100%;
+        object-fit: cover;
         box-shadow: 0 0 1px 0 $title-color;
-        background: linear-gradient(to right, #031d35, #000000);
     }
     .container .heading-title{
         margin: 0;

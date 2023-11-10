@@ -12011,10 +12011,9 @@ textarea.form-control-lg {
 }
 .aboutme .aboutme_image {
   border-radius: 50%;
-  border: 1px solid #0c4261;
   width: 100%;
+  object-fit: cover;
   box-shadow: 0 0 1px 0 #62909f;
-  background: linear-gradient(to right, #031d35, #000000);
 }
 .aboutme .container .heading-title {
   margin: 0;
