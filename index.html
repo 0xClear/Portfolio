@@ -160,19 +160,17 @@
     <section class="activity">
         <div class="container">
 
-            <h1>My GitHub Activities</h1>
+            <h1 class="">My GitHub Activities</h1>
             <canvas class="activity-chart" id="github-activity-chart"></canvas>
-            
 <script>
     // Your GitHub username and token
     const username = '0xclear';
-    const token = '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';
+    const token = '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';
 
 
     // GitHub API URL
     const apiUrl = `https://api.github.com/users/${username}/events`;
-
-  // GitHub API with Token fetch
+    // GitHub API with Token fetch
     fetch(apiUrl, {
         headers: {
             Authorization: `Bearer ${token}`,
