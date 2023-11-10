@@ -12024,4 +12024,13 @@ textarea.form-control-lg {
   }
 }
 
+.activity {
+  background: linear-gradient(to right, #000000, #0c4261);
+}
+
+.activity-chart {
+  width: 100vw;
+  max-height: 300px;
+}
+
 /*# sourceMappingURL=Public.css.map */
