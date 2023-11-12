@@ -12038,7 +12038,18 @@ textarea.form-control-lg {
 }
 
 .contact {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background: linear-gradient(90deg, #000000, #4c585e);
+}
+
+.text-area-contact {
+  height: 6rem;
+}
+@media (min-width: 576px) {
+  .text-area-contact {
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=Public.css.map */
