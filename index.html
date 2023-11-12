@@ -131,14 +131,13 @@
 
                 <div class="row">
                     <div class="col-6 col-sm-3 col-md-2 offset-3 offset-md-5 offset-sm-0  order-1 order-md-1">
-                        <img class="img-fluid mb-2 aboutme_image mt-3 mt-sm-0" src="./Assets/img/hero-img.jpg" alt="profile-img">
+                        <img class="img-fluid mb-2 aboutme_image mt-3 mt-sm-0" src="./Assets/img/hero-img (1).jpg" alt="profile-img">
                     </div>
                     <div class="col-12 col-sm-9 col-md-5 order-2 order-md-2 aboutme-content-text">
-                        <p class=" text-sm-left text-md-start ">Mit einem umfangreichen Hintergrund als Front-End-Entwickler und
-                            Webdesigner, biete ich meine Expertise für die
-                            Erstellung hochwertiger Websites an. Mein Name ist <strong class="text-name h4">Mustafa Bahadori</strong>,
-                            und ich lege besonderen Wert auf eine herausragende
-                            Benutzererfahrung in meinen Projekten.</p>
+                        <p class=" text-sm-left text-md-start ">Die Optimierung der Benutzererfahrung steht im Mittelpunkt meiner Arbeit. Ich setze modernste Technologien und bewährte
+                        Methoden ein, um sicherzustellen, dass Besucher nicht nur auf ästhetisch ansprechende Designs stoßen, sondern auch auf
+                        eine intuitive und befriedigende Interaktion. Dabei berücksichtige ich stets die neuesten Trends und Standards in der
+                        Webentwicklung, um Ihnen innovative Lösungen bieten zu können.</p>
                     </div>
                 </div>
                 <!--
@@ -158,104 +157,5 @@
             -->
         </div>
     </section>
-    <section class="activity">
-        <div class="container">
-
-            <h1 class="">My GitHub Activities</h1>
-            <canvas class="activity-chart" id="github-activity-chart"></canvas>
-<script>
-    // Your GitHub username and token
-    const username = '0xclear';
-    const token = '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';
-
-
-    // GitHub API URL
-    const apiUrl = `https://api.github.com/users/${username}/events`;
-    // GitHub API with Token fetch
-    fetch(apiUrl, {
-        headers: {
-            Authorization: `Bearer ${token}`,
-        },
-    })
-        .then(response => response.json())
-        .then(data => {
-            // Process data and create datasets
-            const dailyActivity = processActivity(data, 'PushEvent', 'Daily Push Activity');
-            const weeklyActivity = processActivity(data, 'PullRequestEvent', 'Weekly Pull Request Activity');
-            const projectActivity = processActivity(data, 'CreateEvent', 'Project Creation Activity');
-            const pullActivity = processActivity(data, 'PullRequestEvent', 'Pull Request Activity');
-            const commitActivity = processActivity(data, 'PushEvent', 'Commit Activity');
-
-            // Render chart
-            renderChart([dailyActivity, weeklyActivity, projectActivity, pullActivity, commitActivity]);
-        })
-        .catch(error => console.error('Error fetching GitHub activities:', error));
-
-    // Function to process GitHub activity
-    function processActivity(data, eventType, label) {
-        const activityData = {};
-
-        data.forEach(event => {
-            if (event.type === eventType) {
-                const eventDate = new Date(event.created_at).toLocaleDateString();
-                activityData[eventDate] = (activityData[eventDate] || 0) + 1;
-            }
-        });
-
-        return {
-            label,
-            data: Object.values(activityData),
-            backgroundColor: getRandomColor(),
-            borderColor: getRandomColor(),
-            borderWidth: 2,
-            pointRadius: 5,
-            pointBackgroundColor: getRandomColor(),
-        };
-    }
-
-    // Function to render Chart.js chart
-    function renderChart(datasets) {
-        const ctx = document.getElementById('github-activity-chart').getContext('2d');
-
-        new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: getLabels(datasets),
-                datasets,
-            },
-            options: {
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                    },
-                },
-            },
-        });
-    }
-
-    // Function to get random color
-    function getRandomColor() {
-        const letters = '0123456789ABCDEF';
-        let color = '#';
-        for (let i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
-        }
-        return color;
-    }
-
-    // Function to get labels from datasets
-    function getLabels(datasets) {
-        const labels = {};
-        datasets.forEach(dataset => {
-            Object.keys(dataset.data).forEach(label => {
-                labels[label] = true;
-            });
-        });
-        return Object.keys(labels);
-    }
-</script>
-        </div>
-    </section>
-
 </body>
 </html>

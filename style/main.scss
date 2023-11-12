@@ -68,10 +68,11 @@ $content-font-size: 1.2rem;
 }
 .header-jumbotron{
     padding-top: 30px;
-    height: 600px;
+    height: 500px;
     padding-bottom: 100px;
     margin: 0;
     color: $primary;
+    backdrop-filter: blur(3px);
 
     h2{
         font-weight: 400;
