@@ -12014,6 +12014,7 @@ textarea.form-control-lg {
 }
 .aboutme .aboutme_image {
   border-radius: 50%;
+  border: 3px solid #62909f;
   width: 100%;
   object-fit: cover;
   box-shadow: 0 0 1px 0 #62909f;

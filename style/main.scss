@@ -173,6 +173,7 @@ $content-font-size: 1.2rem;
     }
     .aboutme_image {
         border-radius: 50%;
+        border: 3px solid $title-color;
         width: 100%;
         object-fit: cover;
         box-shadow: 0 0 1px 0 $title-color;
