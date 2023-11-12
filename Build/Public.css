@@ -12042,6 +12042,8 @@ textarea.form-control-lg {
   padding-top: 120px;
   padding-bottom: 120px;
   background: linear-gradient(90deg, #000000, #4c585e);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .text-area-contact {

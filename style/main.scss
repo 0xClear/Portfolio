@@ -204,7 +204,12 @@ $content-font-size: 1.2rem;
 .contact{
     padding-top: $section-padding;
     padding-bottom: $section-padding;
-    background: linear-gradient(90deg, #000000, #4c585e) ;
+    background: linear-gradient(90deg, #000000, #4c585e);
+
+    @include media-breakpoint-up(xs){
+        padding-top: $section-padding-responsive;
+        padding-bottom: $section-padding-responsive;
+    }
 }
 .text-area-contact{
     height: 6rem;
