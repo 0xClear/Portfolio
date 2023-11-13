@@ -20,9 +20,15 @@ $content-font-size: 1.2rem;
         }
     }
 }
+.main-bg{
+    background: linear-gradient(110deg, #2e2f30, #072231);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .navbar{
-    background: linear-gradient(199deg, #172329 50%, #1b1a1a 70%);
+    background: linear-gradient(199deg, #172329 50%, #1b1a1a  70%);
     border-radius: 1rem;
     box-shadow: 0 1px 2px #c7d265;
 
@@ -107,7 +113,7 @@ $content-font-size: 1.2rem;
 .services{
     padding-top: $section-padding;
     padding-bottom: $section-padding;
-    background: linear-gradient(20deg, #000000, #424646);
+
     z-index: 999;
     color: $title-color;
 
@@ -116,6 +122,11 @@ $content-font-size: 1.2rem;
             box-shadow: 0px 0px 1px 0px $title-color;
             padding: 1.5rem;
             color: #bcbfce;
+
+            &:hover{
+                background: linear-gradient(100deg, #0a121a, #0f415c);
+                box-shadow: none;
+            }
     }
     .service_icon{
         width: 100px;
@@ -158,7 +169,8 @@ $content-font-size: 1.2rem;
     width: 100vw;
     padding-top: $section-padding;
     padding-bottom: $section-padding;
-    background: linear-gradient(90deg, rgb(44, 45, 46), #000000);
+
+   /* background: linear-gradient(90deg, rgb(44, 45, 46), #000000); */
     .aboutme-content-text{
         color: $subtitle-color;
         font-size: $content-font-size;
@@ -194,7 +206,7 @@ $content-font-size: 1.2rem;
 }
 .activity{
     width: 100%;
-    background: linear-gradient(to right, #000000, #0c4261);
+  /*  background: linear-gradient(to right, #000000, #0c4261); */
 
 }
 .activity-chart{
@@ -205,7 +217,7 @@ $content-font-size: 1.2rem;
 .contact{
     padding-top: $section-padding;
     padding-bottom: $section-padding;
-    background: linear-gradient(90deg, #000000, #4c585e);
+  /*  background: linear-gradient(90deg, #000000, #4c585e); */
 
     @include media-breakpoint-up(xs){
         padding-top: $section-padding-responsive;

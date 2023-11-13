@@ -11867,6 +11867,13 @@ textarea.form-control-lg {
   }
 }
 
+.main-bg {
+  background: linear-gradient(110deg, #2e2f30, #072231);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .navbar {
   background: linear-gradient(199deg, #172329 50%, #1b1a1a 70%);
   border-radius: 1rem;
@@ -11951,7 +11958,6 @@ textarea.form-control-lg {
 .services {
   padding-top: 120px;
   padding-bottom: 120px;
-  background: linear-gradient(20deg, #000000, #424646);
   z-index: 999;
   color: #62909f;
   padding-top: 60px;
@@ -11962,6 +11968,10 @@ textarea.form-control-lg {
   box-shadow: 0px 0px 1px 0px #62909f;
   padding: 1.5rem;
   color: #bcbfce;
+}
+.services .col-sm:hover {
+  background: linear-gradient(100deg, #0a121a, #0f415c);
+  box-shadow: none;
 }
 .services .service_icon {
   width: 100px;
@@ -11997,7 +12007,7 @@ textarea.form-control-lg {
   width: 100vw;
   padding-top: 120px;
   padding-bottom: 120px;
-  background: linear-gradient(90deg, rgb(44, 45, 46), #000000);
+  /* background: linear-gradient(90deg, rgb(44, 45, 46), #000000); */
   padding-top: 60px;
   width: 100%;
 }
@@ -12031,7 +12041,7 @@ textarea.form-control-lg {
 
 .activity {
   width: 100%;
-  background: linear-gradient(to right, #000000, #0c4261);
+  /*  background: linear-gradient(to right, #000000, #0c4261); */
 }
 
 .activity-chart {
@@ -12042,7 +12052,7 @@ textarea.form-control-lg {
 .contact {
   padding-top: 120px;
   padding-bottom: 120px;
-  background: linear-gradient(90deg, #000000, #4c585e);
+  /*  background: linear-gradient(90deg, #000000, #4c585e); */
   padding-top: 60px;
   padding-bottom: 60px;
 }
