@@ -232,13 +232,13 @@ $content-font-size: 1.2rem;
 }
 .footer{
     background: linear-gradient(to right, #172329, #62909f );
+    width: 100vw;
 
     p{
         margin-bottom: 0;
     }
 }
 .footer-icon{
-    font-size: large;
     color: $subtitle-color;
     height: 3rem;
     width: 3rem;
