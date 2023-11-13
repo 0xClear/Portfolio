@@ -232,6 +232,10 @@ $content-font-size: 1.2rem;
 }
 .footer{
     background: linear-gradient(to right, #172329, #62909f );
+
+    p{
+        margin-bottom: 0;
+    }
 }
 .footer-icon{
     font-size: large;
