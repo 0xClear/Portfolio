@@ -14,10 +14,9 @@ $content-font-size: 1.2rem;
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: 50% 100%;
+
     @include media-breakpoint-up(sm){
-        .page-header{
-            background-image: none;
-        }
+        background-image: none;
     }
 }
 .main-bg{
