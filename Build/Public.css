@@ -11859,7 +11859,7 @@ textarea.form-control-lg {
   background-image: url("../Assets/img/hero-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: 50% 100%;
 }
 @media (min-width: 576px) {
   .page-header .page-header {
