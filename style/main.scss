@@ -95,12 +95,14 @@ $content-font-size: 1.2rem;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
         }
         .p-texting{
-            font-size: 1.9rem;
+            font-size: 1.8rem;
+            font-weight: 100;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
         }
     }
 
     @include media-breakpoint-up(md) {
+
     }
 
     @include media-breakpoint-up(lg) {
@@ -184,7 +186,7 @@ $content-font-size: 1.2rem;
     }
     .aboutme_image {
         border-radius: 50%;
-        border: 3px solid #c7d2655e;
+        border: 3px solid #c7d265;
         width: 100%;
         object-fit: cover;
         box-shadow: 0 0 1px 0 $title-color;

@@ -11944,7 +11944,8 @@ textarea.form-control-lg {
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
 .header-jumbotron .p-texting {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
+  font-weight: 100;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
 @media (min-width: 992px) {
@@ -12023,7 +12024,7 @@ textarea.form-control-lg {
 }
 .aboutme .aboutme_image {
   border-radius: 50%;
-  border: 3px solid rgba(199, 210, 101, 0.368627451);
+  border: 3px solid #c7d265;
   width: 100%;
   object-fit: cover;
   box-shadow: 0 0 1px 0 #62909f;
