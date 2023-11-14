@@ -249,3 +249,23 @@ $content-font-size: 1.2rem;
     font-size: 2.5rem;
     text-decoration: none;
 }
+
+
+/** page menu mobile*/
+
+#page{
+    position: relative;
+    left: 0px;
+    overflow-x: hidden;
+    &.mobile-nav-opened{
+        left: -300px;
+        overflow: visible;
+    }
+    .mobile-nav{
+        position: absolute;
+        right: -300px;
+        width: 300px;
+    }
+
+
+}

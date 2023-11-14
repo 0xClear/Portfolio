@@ -12082,4 +12082,20 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 
+/** page menu mobile*/
+#page {
+  position: relative;
+  left: 0px;
+  overflow-x: hidden;
+}
+#page.mobile-nav-opened {
+  left: -300px;
+  overflow: visible;
+}
+#page .mobile-nav {
+  position: absolute;
+  right: -300px;
+  width: 300px;
+}
+
 /*# sourceMappingURL=Public.css.map */

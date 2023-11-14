@@ -37,153 +37,162 @@
 
 </head>
 <body class="main-bg">
-    <header class="page-header">
-        <div class="container justify-content-center">
-            <nav class="navbar navbar-expand-lg  sticky-top">
-                <div class="container-fluid ">
-                    <a class="navbar-brand " href="#"> <img class="align-middle" style="width: 100px;" src="./Assets/icon/Logo.svg"
-                            alt=""> </a>
-                    <button class="navbar-toggler border-demo" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon navbar-dark"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
-                        <ul class="navbar-nav ">
-                            <li class="nav-item ">
-                                <a class="nav-link " href="#services">Dienstleistungen</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="#aboutme">Über&nbsp;uns </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="#">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " href="#contact">Kontakt</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+    <div id="page" class="" > <!--  mobile-nav-opened-->
+        <nav class="mobile-nav">
+            <a class="mobile-nav-link" href="#"> Dienstleistungen</a>
+            <a class="mobile-nav-link" href="#"> Über&nbsp;uns</a>
+            <a class="mobile-nav-link" href="#"> Portfolio</a>
+            <a class="mobile-nav-link" href="#"> Kontaktieren</a>
+            <a class="mobile-nav-link btn btn-primary " href="#"> Projektanfrage stellen</a>
+        </nav>
 
-            <div class="jumbotron header-jumbotron d-flex flex-column justify-content-center ">
+        <header class="page-header">
+            <div class="container justify-content-center">
+                <nav class="navbar navbar-expand-lg  sticky-top">
+                    <div class="container-fluid ">
+                        <a class="navbar-brand " href="#"> <img class="align-middle" style="width: 100px;" src="./Assets/icon/Logo.svg"
+                                alt=""> </a>
+                        <button id="Toggle-mobile-nav" class="navbar-toggler border-demo" type="button" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon navbar-dark"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item ">
+                                    <a class="nav-link " href="#services">Dienstleistungen</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#aboutme">Über&nbsp;uns </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#contact">Kontakt</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
 
-                <p class="display-3 size-text text-white">Code und Kreativität verschmelzen</p>
-                <hr class="my-2 text-success w-50 ">
-                <h2 class="display-6 text-white p-texting">Mustafa Bahadori, Ihr Frontend-Entwicklungsvisionär</h3>
-                <p class="lead d-flex flex-column ">
-                    <a class="btn  btn-primary btn-md align-self-start " href="https://github.com/0xClear/" role="button">Mehr darüber erfahren</a>
-                    <a class="btn btn-success btn-md align-self-start mt-1" href="mailto:internet.devloper@gmail.com" role="button">Kontaktieren</a>
-                </p>
-            </div>
-        </div>
-    </header>
-    <section class="services" id="services">
-        <div class="container text-center ">
-            <h1 class="display-2 heading-title" >Dienstleistungen</h1>
-            <p class="subtitle lead" >Ich biete folgende Dienstleistungen als Frontend-Entwickler an</p>
-            <div class="row gap-3">
-                <div class="col-sm">
-                    <div class="service_icon">
-                        <img src="./Assets/icon/favicon/websitedesign.svg" alt="websitedesign icon ">
-                    </div>
-                    <h4 class="">Website-Design&&nbsp;Entwicklung</h4>
-                    <p class="text-start lead" > Als Front-End Entwickler bin ich darauf spezialisiert, Websites zu gestalten, die Ihre Produkte oder Dienstleistungen
-                    erfolgreich verkaufen. Meine maßgeschneiderten Lösungen sprechen Ihre Zielgruppe an und führen zu Top-Umsätzen.</p>
-                </div>
-                <div class="col-sm">
-                    <div class="service_icon">
-                        <img src="./Assets/icon/favicon/responsive.svg" alt="websitedesign icon ">
-                    </div>
-                    <h4>Responsives&nbsp;Webdesign</h4>
-                    <p class="lead text-start">Mit meinem responsiven Webdesign steigern Sie Ihren Verkaufserfolg, denn ich entwickle Websites, die nicht nur
-                    beeindrucken, sondern auch auf jedem Gerät optimal funktionieren. Setzen Sie auf meine Expertise, um Ihre Online-Präsenz
-                    in eine verkaufsfördernde Kraft zu verwandeln.</p>
-                </div>
-                <div class="col-sm">
-                    <div class="service_icon">
-                        <img src="./Assets/icon/favicon/seo-icon.svg" alt="websitedesign icon ">
-                    </div>
-                    <h4 class="">SEO-Optimierung</h4>
-                    <p class="text-start lead">Mit meinen SEO-Optimierungen bringen Sie Ihre Website ganz nach vorne. Ich sorge dafür, dass sie von Suchmaschinen
-                    bevorzugt wird, um mehr Besucher anzulocken und die Conversion-Rate zu erhöhen.</p>
+                <div class="jumbotron header-jumbotron d-flex flex-column justify-content-center ">
+
+                    <p class="display-3 size-text text-white">Code und Kreativität verschmelzen</p>
+                    <hr class="my-2 text-success w-50 ">
+                    <h2 class="display-6 text-white p-texting">Mustafa Bahadori, Ihr Frontend-Entwicklungsvisionär</h3>
+                    <p class="lead d-flex flex-column ">
+                        <a class="btn  btn-primary btn-md align-self-start " href="https://github.com/0xClear/" role="button">Mehr darüber erfahren</a>
+                        <a class="btn btn-success btn-md align-self-start mt-1" href="mailto:internet.devloper@gmail.com" role="button">Kontaktieren</a>
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="aboutme" id="aboutme">
-        <div class="container">
-            <h1 class="display-2 heading-title text-center"> Über mich</h1>
-            <p class="text-center subtitle lead ">Ihre Vision, meine Umsetzung</p>
-            <div class="aboutme-liste">
-
-                <div class="row">
-                    <div class="col-6 col-sm-3 col-md-2 offset-3 offset-sm-0 order-1 order-md-2">
-                        <img  class="img-fluid mb-2 aboutme_image" src="./Assets/img/profile-img.jpg" alt="profile-img">
+        </header>
+        <section class="services" id="services">
+            <div class="container text-center ">
+                <h1 class="display-2 heading-title" >Dienstleistungen</h1>
+                <p class="subtitle lead" >Ich biete folgende Dienstleistungen als Frontend-Entwickler an</p>
+                <div class="row gap-3">
+                    <div class="col-sm">
+                        <div class="service_icon">
+                            <img src="./Assets/icon/favicon/websitedesign.svg" alt="websitedesign icon ">
+                        </div>
+                        <h4 class="">Website-Design&&nbsp;Entwicklung</h4>
+                        <p class="text-start lead" > Als Front-End Entwickler bin ich darauf spezialisiert, Websites zu gestalten, die Ihre Produkte oder Dienstleistungen
+                        erfolgreich verkaufen. Meine maßgeschneiderten Lösungen sprechen Ihre Zielgruppe an und führen zu Top-Umsätzen.</p>
                     </div>
-                    <div class="col-12 col-sm-9 col-md-5 order-2 order-md-1 aboutme-content-text">
-                        <p class=" text-sm-left text-md-end ">Mit einem umfangreichen Hintergrund als Front-End-Entwickler und Webdesigner, biete ich meine Expertise für die
-                        Erstellung hochwertiger Websites an. Mein Name ist <strong class="text-name h4">Mustafa Bahadori</strong>, und ich lege besonderen Wert auf eine herausragende
-                        Benutzererfahrung in meinen Projekten.</p>
+                    <div class="col-sm">
+                        <div class="service_icon">
+                            <img src="./Assets/icon/favicon/responsive.svg" alt="websitedesign icon ">
+                        </div>
+                        <h4>Responsives&nbsp;Webdesign</h4>
+                        <p class="lead text-start">Mit meinem responsiven Webdesign steigern Sie Ihren Verkaufserfolg, denn ich entwickle Websites, die nicht nur
+                        beeindrucken, sondern auch auf jedem Gerät optimal funktionieren. Setzen Sie auf meine Expertise, um Ihre Online-Präsenz
+                        in eine verkaufsfördernde Kraft zu verwandeln.</p>
+                    </div>
+                    <div class="col-sm">
+                        <div class="service_icon">
+                            <img src="./Assets/icon/favicon/seo-icon.svg" alt="websitedesign icon ">
+                        </div>
+                        <h4 class="">SEO-Optimierung</h4>
+                        <p class="text-start lead">Mit meinen SEO-Optimierungen bringen Sie Ihre Website ganz nach vorne. Ich sorge dafür, dass sie von Suchmaschinen
+                        bevorzugt wird, um mehr Besucher anzulocken und die Conversion-Rate zu erhöhen.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="aboutme" id="aboutme">
+            <div class="container">
+                <h1 class="display-2 heading-title text-center"> Über mich</h1>
+                <p class="text-center subtitle lead ">Ihre Vision, meine Umsetzung</p>
+                <div class="aboutme-liste">
 
-                <div class="row">
-                    <div class="col-6 col-sm-3 col-md-2 offset-3 offset-md-5 offset-sm-0  order-1 order-md-1">
-                        <img class="img-fluid mb-2 aboutme_image mt-3 mt-sm-0" src="./Assets/img/hero-img (1).jpg" alt="profile-img">
-                    </div>
-                    <div class="col-12 col-sm-9 col-md-5 order-2 order-md-2 aboutme-content-text">
-                        <p class=" text-sm-left text-md-start ">Die Optimierung der Benutzererfahrung steht im Mittelpunkt meiner Arbeit. Ich setze modernste Technologien und bewährte
-                        Methoden ein, um sicherzustellen, dass Besucher nicht nur auf ästhetisch ansprechende Designs stoßen, sondern auch auf
-                        eine intuitive und befriedigende Interaktion. Dabei berücksichtige ich stets die neuesten Trends und Standards in der
-                        Webentwicklung, um Ihnen innovative Lösungen bieten zu können.</p>
-                    </div>
-                </div>
-                <!--
-                <div class="row">
-                    <div class="col-6 col-sm-3 col-md-2 offset-3 offset-sm-0 order-1 order-md-2">
-                        <img class="img-fluid mb-2 aboutme_image" src="./Assets/img/" alt="profile-img">
-                    </div>
-                    <div class="col-12 col-sm-9 col-md-5 order-2 order-md-1 aboutme-content-text">
-                        <p class=" text-sm-left text-md-end ">Mit einem umfangreichen Hintergrund als Front-End-Entwickler und
-                            Webdesigner, biete ich meine Expertise für die
-                            Erstellung hochwertiger Websites an. Mein Name ist <strong class="text-name h4">Mustafa Bahadori</strong>,
-                            und ich lege besonderen Wert auf eine herausragende
+                    <div class="row">
+                        <div class="col-6 col-sm-3 col-md-2 offset-3 offset-sm-0 order-1 order-md-2">
+                            <img  class="img-fluid mb-2 aboutme_image" src="./Assets/img/profile-img.jpg" alt="profile-img">
+                        </div>
+                        <div class="col-12 col-sm-9 col-md-5 order-2 order-md-1 aboutme-content-text">
+                            <p class=" text-sm-left text-md-end ">Mit einem umfangreichen Hintergrund als Front-End-Entwickler und Webdesigner, biete ich meine Expertise für die
+                            Erstellung hochwertiger Websites an. Mein Name ist <strong class="text-name h4">Mustafa Bahadori</strong>, und ich lege besonderen Wert auf eine herausragende
                             Benutzererfahrung in meinen Projekten.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 col-sm-3 col-md-2 offset-3 offset-md-5 offset-sm-0  order-1 order-md-1">
+                            <img class="img-fluid mb-2 aboutme_image mt-3 mt-sm-0" src="./Assets/img/hero-img (1).jpg" alt="profile-img">
+                        </div>
+                        <div class="col-12 col-sm-9 col-md-5 order-2 order-md-2 aboutme-content-text">
+                            <p class=" text-sm-left text-md-start ">Die Optimierung der Benutzererfahrung steht im Mittelpunkt meiner Arbeit. Ich setze modernste Technologien und bewährte
+                            Methoden ein, um sicherzustellen, dass Besucher nicht nur auf ästhetisch ansprechende Designs stoßen, sondern auch auf
+                            eine intuitive und befriedigende Interaktion. Dabei berücksichtige ich stets die neuesten Trends und Standards in der
+                            Webentwicklung, um Ihnen innovative Lösungen bieten zu können.</p>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="row">
+                        <div class="col-6 col-sm-3 col-md-2 offset-3 offset-sm-0 order-1 order-md-2">
+                            <img class="img-fluid mb-2 aboutme_image" src="./Assets/img/" alt="profile-img">
+                        </div>
+                        <div class="col-12 col-sm-9 col-md-5 order-2 order-md-1 aboutme-content-text">
+                            <p class=" text-sm-left text-md-end ">Mit einem umfangreichen Hintergrund als Front-End-Entwickler und
+                                Webdesigner, biete ich meine Expertise für die
+                                Erstellung hochwertiger Websites an. Mein Name ist <strong class="text-name h4">Mustafa Bahadori</strong>,
+                                und ich lege besonderen Wert auf eine herausragende
+                                Benutzererfahrung in meinen Projekten.</p>
+                        </div>
                     </div>
                 </div>
+                -->
             </div>
-            -->
-        </div>
-    </section>
-    <section class="contact" id="contact">
-        <div class="container">
-            <h1 class="display-1 heading-title text-center ">Kontaktieren</h1>
-            <p class="text-center subtitle ">Hinterlasse eine Nachricht!</p>
-            
-            <form method="GET" action="#">
-                <div class="row">
-                    <div class="col-12 col-sm-6">
-                        <input class="form-control mb-2" type="text" name="name" placeholder="Deine Name *" required />
-                        <input class="form-control mb-2" type="email" name="mail" placeholder="Deine E-Mail *" required />
-                        <input class="form-control mb-2 mb-sm-0" type="text" name="subject" placeholder="Betreff"/>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <h1 class="display-1 heading-title text-center ">Kontaktieren</h1>
+                <p class="text-center subtitle ">Hinterlasse eine Nachricht!</p>
+                
+                <form method="GET" action="#">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <input class="form-control mb-2" type="text" name="name" placeholder="Deine Name *" required />
+                            <input class="form-control mb-2" type="email" name="mail" placeholder="Deine E-Mail *" required />
+                            <input class="form-control mb-2 mb-sm-0" type="text" name="subject" placeholder="Betreff"/>
+                        </div>
+                        <div class="col-12 col-sm-6 ">
+                            <textarea class="form-control text-area-contact " placeholder="Hinterlasse eine Nachricht" ></textarea>
+                        </div>
                     </div>
-                    <div class="col-12 col-sm-6 ">
-                        <textarea class="form-control text-area-contact " placeholder="Hinterlasse eine Nachricht" ></textarea>
+                    <div class="text-center" >
+                        <button type="submit" class="btn btn-lg btn-primary mt-3">Abschicken <i class=" fas fa-paper-plane"></i> </button>
                     </div>
-                </div>
-                <div class="text-center" >
-                    <button type="submit" class="btn btn-lg btn-primary mt-3">Abschicken <i class=" fas fa-paper-plane"></i> </button>
-                </div>
-            </form>
-        </div>
-    </section>
-    <footer class="footer">
-        <p class="subtitle text-center pt-4">&copy; Bahadori.me 2023</p>
-    </footer>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <p class="subtitle text-center pt-4">&copy; Bahadori.me 2023</p>
+        </footer> 
+    </div>
 
     <script type="text/JavaScript" src="./lib/JQuery/jquery-3.7.1.min.js"></script>
     <script type="text/JavaScript" src="./lib/bootstrap-5.3.2/dist/js/bootstrap.bundle.js" ></script>
+    <script type="text/JavaScript" src="./js/index.js" ></script>
 </body>
 </html>
