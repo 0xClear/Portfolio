@@ -15,9 +15,9 @@ $content-font-size: 1.2rem;
     background-size: cover ;
     background-position: 50% 100%;
 
-    @include media-breakpoint-up(sm){
-        background-image: none;
-    }
+  /*  @include media-breakpoint-up(sm){
+        background: linear-gradient(50deg, #0c4261, #b0c0cd);
+    } */
 }
 .main-bg{
     background: linear-gradient(110deg, #2e2f30, #072231);
@@ -192,6 +192,9 @@ $content-font-size: 1.2rem;
     .container .heading-title{
         margin: 0;
     }
+    @include media-breakpoint-up(xs){
+        padding-bottom: $section-padding-responsive;
+    }
     @include media-breakpoint-up(md) {
         padding-top: $section-padding-responsive;
         width: 100%;
@@ -214,12 +217,10 @@ $content-font-size: 1.2rem;
 
 }
 .contact{
-    padding-top: $section-padding;
     padding-bottom: $section-padding;
   /*  background: linear-gradient(90deg, #000000, #4c585e); */
 
     @include media-breakpoint-up(xs){
-        padding-top: $section-padding-responsive;
         padding-bottom: $section-padding-responsive;
     }
 }

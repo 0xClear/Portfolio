@@ -11860,11 +11860,9 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 100%;
-}
-@media (min-width: 576px) {
-  .page-header {
-    background-image: none;
-  }
+  /*  @include media-breakpoint-up(sm){
+        background: linear-gradient(50deg, #0c4261, #b0c0cd);
+    } */
 }
 
 .main-bg {
@@ -12008,6 +12006,7 @@ textarea.form-control-lg {
   padding-top: 120px;
   padding-bottom: 120px;
   /* background: linear-gradient(90deg, rgb(44, 45, 46), #000000); */
+  padding-bottom: 60px;
   padding-top: 60px;
   width: 100%;
 }
@@ -12050,10 +12049,8 @@ textarea.form-control-lg {
 }
 
 .contact {
-  padding-top: 120px;
   padding-bottom: 120px;
   /*  background: linear-gradient(90deg, #000000, #4c585e); */
-  padding-top: 60px;
   padding-bottom: 60px;
 }
 
