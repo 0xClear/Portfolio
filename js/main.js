@@ -6,10 +6,14 @@ jQuery(document).ready(function($){
     $("#page").click(function(e){
         var target = e.target;
 
-        var ismobilenavbuttonclicked =
-            $(target).hasclass("navbar-toggler") ||
-            $(target).parent().hasclass("navbar-toggler");
-
-    })
+        var ismobilenavbuttonclicked =(  
+            $(target).hasClass("navbar-toggler") ||
+            $(target).parent().hasClass("navbar-toggler")
+        );
+        if ( ismobilenavbuttonclicked ){
+            return;
+        }
+        $("#page").removeClass("mobile-nav-opened");
+    });
 
 })
