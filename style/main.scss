@@ -5,9 +5,16 @@ $paddin-bottom: 1.5rem;
 $title-color: #62909f;
 $subtitle-color: #b0c0cd;
 
+
+
 $content-font-size: 1.2rem;
+$page-menu-size: 175px;
 
 @import "../lib/bootstrap-5.3.2/scss/bootstrap";
+
+body{
+    overflow-x: hidden;
+}
 
 .page-header{
     background-image: url("../Assets/img/hero-img.jpg");
@@ -256,10 +263,10 @@ $content-font-size: 1.2rem;
 #page{
     position: relative;
     left: 0px;
-    overflow-x: hidden;
+    overflow-x: visible;
+    transform: translate(0px, 0px);
     &.mobile-nav-opened{
-        left: -300px;
-        overflow: visible;
+        transform: translate(-$page-menu-size, 0px);
     }
     .mobile-nav{
         position: absolute;
@@ -277,6 +284,9 @@ $content-font-size: 1.2rem;
         color: $title-color;
         font-size: 1.1rem;
         border: none;
+        &:hover{
+            color: $subtitle-color;
+        }
     }
 
 

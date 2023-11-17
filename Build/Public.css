@@ -11855,6 +11855,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  overflow-x: hidden;
+}
+
 .page-header {
   background-image: url("../Assets/img/hero-img.jpg");
   background-repeat: no-repeat;
@@ -12086,11 +12090,11 @@ textarea.form-control-lg {
 #page {
   position: relative;
   left: 0px;
-  overflow-x: hidden;
+  overflow-x: visible;
+  transform: translate(0px, 0px);
 }
 #page.mobile-nav-opened {
-  left: -300px;
-  overflow: visible;
+  transform: translate(-175px, 0px);
 }
 #page .mobile-nav {
   position: absolute;
@@ -12105,6 +12109,9 @@ textarea.form-control-lg {
   color: #62909f;
   font-size: 1.1rem;
   border: none;
+}
+#page .list-group-item:hover {
+  color: #b0c0cd;
 }
 
 /*# sourceMappingURL=Public.css.map */
