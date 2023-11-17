@@ -11866,7 +11866,7 @@ textarea.form-control-lg {
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .main-bg {
