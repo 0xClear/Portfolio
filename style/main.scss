@@ -8,7 +8,7 @@ $subtitle-color: #b0c0cd;
 
 
 $content-font-size: 1.2rem;
-$page-menu-size: 175px;
+$page-menu-size: 250px;
 
 @import "../lib/bootstrap-5.3.2/scss/bootstrap";
 
@@ -44,7 +44,7 @@ body{
 }
 
 .navbar-toggler{
-    border: 1px solid #466574;
+    border: 1px solid #666b34;
 }
 .navbar-toggler-icon{
     color: #7f65d2;

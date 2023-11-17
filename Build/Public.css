@@ -11887,7 +11887,7 @@ body {
 }
 
 .navbar-toggler {
-  border: 1px solid #466574;
+  border: 1px solid #666b34;
 }
 
 .navbar-toggler-icon {
@@ -12094,7 +12094,7 @@ body {
   transform: translate(0px, 0px);
 }
 #page.mobile-nav-opened {
-  transform: translate(-175px, 0px);
+  transform: translate(-250px, 0px);
 }
 #page .mobile-nav {
   position: absolute;
