@@ -24,9 +24,7 @@ $page-menu-size: 300px;
     } */
 }
 body{
-    overflow-x: hidden; 
-}
-.main-bg{
+    overflow-x: hidden;
     background: linear-gradient(110deg, #2e2f30, #072231);
     background-position: center;
     background-repeat: no-repeat;
@@ -266,7 +264,8 @@ body{
     transform: translate(0px, 0px);
 
     &.mobile-nav-opened{
-        transform: translate(-$page-menu-size, 0px);
+
+        transform: translate(- $page-menu-size, 0px);
     }
     .mobile-nav{
         position: absolute;
@@ -274,8 +273,6 @@ body{
         top: 0px;
         bottom: 0px;
         width: $page-menu-size;
-        box-shadow: 0 0 1px 0px #62909f;
-        border-radius: none;
 
 
     &.mobile-nav-link{

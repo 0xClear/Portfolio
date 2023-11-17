@@ -11867,9 +11867,6 @@ textarea.form-control-lg {
 
 body {
   overflow-x: hidden;
-}
-
-.main-bg {
   background: linear-gradient(110deg, #2e2f30, #072231);
   background-position: center;
   background-repeat: no-repeat;
@@ -12101,8 +12098,6 @@ body {
   top: 0px;
   bottom: 0px;
   width: 300px;
-  box-shadow: 0 0 1px 0px #62909f;
-  border-radius: none;
 }
 #page .mobile-nav.mobile-nav-link {
   color: #b0c0cd;
