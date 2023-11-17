@@ -8,7 +8,7 @@ $subtitle-color: #b0c0cd;
 
 
 $content-font-size: 1.2rem;
-$page-menu-size: 250px;
+$page-menu-size: 300px;
 
 @import "../lib/bootstrap-5.3.2/scss/bootstrap";
 
@@ -23,12 +23,14 @@ $page-menu-size: 250px;
         background: linear-gradient(50deg, #0c4261, #b0c0cd);
     } */
 }
+body{
+    overflow: hidden; 
+}
 .main-bg{
     background: linear-gradient(110deg, #2e2f30, #072231);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: hidden;
 }
 
 .navbar{

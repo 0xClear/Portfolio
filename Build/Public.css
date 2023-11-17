@@ -11865,12 +11865,15 @@ textarea.form-control-lg {
     } */
 }
 
+body {
+  overflow: hidden;
+}
+
 .main-bg {
   background: linear-gradient(110deg, #2e2f30, #072231);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden;
 }
 
 .navbar {
@@ -12090,14 +12093,14 @@ textarea.form-control-lg {
   transform: translate(0px, 0px);
 }
 #page.mobile-nav-opened {
-  transform: translate(-250px, 0px);
+  transform: translate(-300px, 0px);
 }
 #page .mobile-nav {
   position: absolute;
-  right: -250px;
+  right: -300px;
   top: 0px;
   bottom: 0px;
-  width: 250px;
+  width: 300px;
   box-shadow: 0 0 1px 0px #62909f;
   border-radius: none;
 }
