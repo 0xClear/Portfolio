@@ -265,6 +265,18 @@ $content-font-size: 1.2rem;
         position: absolute;
         right: -300px;
         width: 300px;
+
+
+    &.mobile-nav-link{
+        color: $subtitle-color;
+
+    }
+    }
+    .list-group-item{
+        background-color: transparent;
+        color: $title-color;
+        font-size: 1.1rem;
+        border: none;
     }
 
 

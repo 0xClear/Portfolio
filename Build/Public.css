@@ -12097,5 +12097,14 @@ textarea.form-control-lg {
   right: -300px;
   width: 300px;
 }
+#page .mobile-nav.mobile-nav-link {
+  color: #b0c0cd;
+}
+#page .list-group-item {
+  background-color: transparent;
+  color: #62909f;
+  font-size: 1.1rem;
+  border: none;
+}
 
 /*# sourceMappingURL=Public.css.map */
