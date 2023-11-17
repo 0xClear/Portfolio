@@ -11855,10 +11855,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  overflow-x: hidden;
-}
-
 .page-header {
   background-image: url("../Assets/img/hero-img.jpg");
   background-repeat: no-repeat;
@@ -11874,6 +11870,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -12090,7 +12087,6 @@ body {
 #page {
   position: relative;
   left: 0px;
-  overflow-x: visible;
   transform: translate(0px, 0px);
 }
 #page.mobile-nav-opened {
@@ -12098,17 +12094,23 @@ body {
 }
 #page .mobile-nav {
   position: absolute;
-  right: -300px;
-  width: 300px;
+  right: -250px;
+  top: 0px;
+  bottom: 0px;
+  width: 250px;
+  box-shadow: 0 0 1px 0px #62909f;
+  border-radius: none;
 }
 #page .mobile-nav.mobile-nav-link {
   color: #b0c0cd;
+  border-radius: none;
 }
 #page .list-group-item {
   background-color: transparent;
   color: #62909f;
   font-size: 1.1rem;
   border: none;
+  border-radius: none;
 }
 #page .list-group-item:hover {
   color: #b0c0cd;

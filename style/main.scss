@@ -12,9 +12,6 @@ $page-menu-size: 250px;
 
 @import "../lib/bootstrap-5.3.2/scss/bootstrap";
 
-body{
-    overflow-x: hidden;
-}
 
 .page-header{
     background-image: url("../Assets/img/hero-img.jpg");
@@ -31,6 +28,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -263,19 +261,24 @@ body{
 #page{
     position: relative;
     left: 0px;
-    overflow-x: visible;
     transform: translate(0px, 0px);
+
     &.mobile-nav-opened{
         transform: translate(-$page-menu-size, 0px);
     }
     .mobile-nav{
         position: absolute;
-        right: -300px;
-        width: 300px;
+        right: -$page-menu-size;
+        top: 0px;
+        bottom: 0px;
+        width: $page-menu-size;
+        box-shadow: 0 0 1px 0px #62909f;
+        border-radius: none;
 
 
     &.mobile-nav-link{
         color: $subtitle-color;
+        border-radius: none;
 
     }
     }
@@ -284,10 +287,10 @@ body{
         color: $title-color;
         font-size: 1.1rem;
         border: none;
+        border-radius: none;
         &:hover{
             color: $subtitle-color;
         }
     }
-
 
 }
