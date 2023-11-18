@@ -230,6 +230,9 @@ body{
     @include media-breakpoint-up(xs){
         padding-bottom: $section-padding-responsive;
     }
+    .color-icon{
+        color: #c7d265;
+    }
 }
 .text-area-contact{
     height: 6rem;
