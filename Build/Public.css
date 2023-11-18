@@ -12087,9 +12087,11 @@ body {
 #page {
   position: relative;
   left: 0px;
+  overflow-x: hidden;
   transform: translate(0px, 0px);
 }
 #page.mobile-nav-opened {
+  overflow-x: visible;
   transform: translate(-300px, 0px);
 }
 #page .mobile-nav {

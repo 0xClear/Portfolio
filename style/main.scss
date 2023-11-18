@@ -261,10 +261,11 @@ body{
 #page{
     position: relative;
     left: 0px;
+    overflow-x: hidden;
     transform: translate(0px, 0px);
 
     &.mobile-nav-opened{
-
+        overflow-x: visible;
         transform: translate(- $page-menu-size, 0px); 
     }
     .mobile-nav{
