@@ -265,11 +265,11 @@ body{
 
     &.mobile-nav-opened{
 
-        transform: translate(- $page-menu-size, 0px);
+        transform: translate(- $page-menu-size, 0px); 
     }
     .mobile-nav{
         position: absolute;
-        right: -$page-menu-size;
+        right: - $page-menu-size;
         top: 0px;
         bottom: 0px;
         width: $page-menu-size;
