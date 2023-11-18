@@ -12092,14 +12092,14 @@ body {
 }
 #page.mobile-nav-opened {
   overflow-x: visible;
-  transform: translate(-300px, 0px);
+  transform: translate(-250px, 0px);
 }
 #page .mobile-nav {
   position: absolute;
-  right: -300px;
+  right: -250px;
   top: 0px;
   bottom: 0px;
-  width: 300px;
+  width: 250px;
   background: linear-gradient(100deg, rgba(22, 25, 26, 0.8784313725), #293e49);
 }
 #page .mobile-nav.mobile-nav-link {
