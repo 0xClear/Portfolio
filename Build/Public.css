@@ -11930,7 +11930,7 @@ body {
   padding-bottom: 100px;
   margin: 0;
   color: #0c4261;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(5px);
 }
 .header-jumbotron h2, .header-jumbotron .h2 {
   font-weight: 400;
@@ -12100,10 +12100,13 @@ body {
   top: 0px;
   bottom: 0px;
   width: 300px;
+  background: linear-gradient(100deg, rgba(22, 25, 26, 0.8784313725), #293e49);
 }
 #page .mobile-nav.mobile-nav-link {
   color: #b0c0cd;
   border-radius: none;
+  border-bottom: 1px solid #172329;
+  display: block;
 }
 #page .list-group-item {
   background-color: transparent;
