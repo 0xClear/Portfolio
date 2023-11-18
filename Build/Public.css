@@ -12112,11 +12112,15 @@ body {
   background-color: transparent;
   color: #62909f;
   font-size: 1.1rem;
-  border: none;
+  border-bottom: 1px solid #072130;
+  border-left: none;
+  border-right: none;
+  border-top: none;
   border-radius: none;
 }
 #page .list-group-item:hover {
   color: #b0c0cd;
+  background-color: #0c4261;
 }
 
 /*# sourceMappingURL=Public.css.map */

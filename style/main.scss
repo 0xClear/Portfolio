@@ -289,10 +289,14 @@ body{
         background-color: transparent;
         color: $title-color;
         font-size: 1.1rem;
-        border: none;
+        border-bottom: 1px solid #072130;
+        border-left: none;
+        border-right: none;
+        border-top: none;
         border-radius: none;
         &:hover{
             color: $subtitle-color;
+            background-color: #0c4261;
         }
     }
 
