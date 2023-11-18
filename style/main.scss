@@ -261,7 +261,8 @@ body{
 #page{
     position: relative;
     left: 0px;
-    overflow-x: hidden;
+    overflow-x: hidden; //FIXME
+    //TODO
     transform: translate(0px, 0px);
 
     &.mobile-nav-opened{
