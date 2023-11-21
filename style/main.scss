@@ -55,10 +55,17 @@ body{
     text-transform: capitalize;
 }
 
-.nav-item .nav-link{
-    color: $subtitle-color;
-    font-size: 1.2rem;
-    font-weight: 300;
+.nav-item{
+
+    .nav-link{
+        color: $subtitle-color;
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    &.btn-header{
+        padding: 0.05rem 0.5rem;
+    }
 }
 
 .nav-item .nav-link:hover {
