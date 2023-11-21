@@ -65,6 +65,10 @@ body{
 
     &.btn-header{
         padding: 0.05rem 0.5rem;
+        border: 0.1rem solid #666b34;
+        &:hover{
+            background-color: rgb(7, 25, 36)
+        }
     }
 }
 
