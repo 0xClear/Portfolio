@@ -12065,6 +12065,15 @@ body {
 .contact .color-icon {
   color: #c7d265;
 }
+.contact .alternative-mail {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1.2rem 3rem;
+  margin: 0.5rem 0rem;
+  font-size: 1.2rem;
+  background-color: #092e44;
+}
 
 .text-area-contact {
   height: 6rem;

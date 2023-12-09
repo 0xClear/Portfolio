@@ -67,7 +67,7 @@ body{
         padding: 0.05rem 0.5rem;
         border: 0.1rem solid #666b34;
         &:hover{
-            background-color: rgb(7, 25, 36)
+            background-color: rgb(7, 25, 36) 
         }
     }
 }
@@ -243,6 +243,15 @@ body{
     }
     .color-icon{
         color: #c7d265;
+    }
+    .alternative-mail{
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 1.2rem 3rem;
+        margin: 0.5rem 0rem;
+        font-size: 1.2rem;
+        background-color: #092e44;
     }
 }
 .text-area-contact{
